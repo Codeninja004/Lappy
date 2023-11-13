@@ -3,7 +3,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #fff;
+}
+body{
+    background-image: url('images/backg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 li,a, button{
     font-family: "Montserrat", sans-serif;
@@ -18,7 +23,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
+    background-color: #ffffff94;
 }
 .logo{
     cursor: pointer;
@@ -53,12 +59,12 @@ button:hover{
 }
 section {
     padding: 20px;
+
 }
 
 form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

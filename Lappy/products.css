@@ -18,7 +18,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
+    background-color: #ffffff94;
+}
+body{
+    background-image: url('images/backg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .logo{
     cursor: pointer;
