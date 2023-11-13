@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+       <img class="logo" src="images/icon12.jpg" alt="">
+    <nav> 
+        <ul class="nav__links">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="aboutus.html">About us</a></li> 
+            <li><a href="contact.html">Contact</a></li>   
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <form action="submit_form.php" method="post">
+            <h1>Contact us</h1>
+            <label for="name">Name:</label> <p><br></p>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"> <p><br></p>
+
+            <label for="email">Email:</label><p><br></p>
+            <input type="email" id="email" name="email" required placeholder="Enter your mail ID"><p><br></p>
+
+            <label for="message">Message:</label><p><br></p>
+            <textarea id="message" name="message" rows="4" required placeholder="Type your message here "></textarea><p><br></p>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
